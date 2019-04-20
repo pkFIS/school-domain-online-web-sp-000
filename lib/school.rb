@@ -19,7 +19,7 @@ class School
     roster[grade]
   end
 
-  def sort
+  def sort(student)
     roster[student.sort]
 
   end
