@@ -7,9 +7,10 @@ class School
     @roster = {}
   end
 
-  def add_student(student, key)
-    roster[key] = []
-    roster[key] << student
+  def add_student(student, grade)
+    if roster[grade]
+      roster[grade] << student
+    end
   end
 
   def sort
