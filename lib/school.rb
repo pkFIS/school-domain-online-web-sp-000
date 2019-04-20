@@ -8,8 +8,8 @@ class School
   end
 
   def add_student(student, key)
-    roster["#{key}"] = []
-    roster["#{key}"] << "#{student}"
+    roster[key] = []
+    roster[key] << student
   end
 
   def sort
