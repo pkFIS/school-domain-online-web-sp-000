@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    roster.sort_by { |student, grade| student[:grade] }
+    roster.sort_by { |student, grade| grade[:student] }
 
   end
 
