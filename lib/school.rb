@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    roster.sort
+    roster[:student].sort
   end
 
 
