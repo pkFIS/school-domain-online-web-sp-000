@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    roster.sort.to_h
+    roster.sort_by(&:first)
 
   end
 
