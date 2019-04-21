@@ -20,7 +20,7 @@ class School
   end
 
   def sort
-    roster[:student].sort_by{|k,v| k}.to_h
+    roster[@student].sort_by{|k,v| k}.to_h
 
   end
 
